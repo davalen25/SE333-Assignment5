@@ -38,10 +38,14 @@ jobs:
           path: amazon-tests/target/site/jacoco/jacoco.xml
 
       - name: Install Playwright Browsers
-        run: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps" -f playwright-tests/pom.xml
+        run: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install chromium" -f playwright-tests/pom.xml
 
-      - name: Run Playwright Tests
-        run: mvn test -f playwright-tests/pom.xml
+      - name: Install Chromium System Dependencies
+        run: npx playwright install-deps chromium
+        continue-on-error: true
+
+      - name: Run Playwright Tests Headless
+        run: mvn test -f playwright-tests/pom.xml -Dheadless=true
         continue-on-error: true
 
       - name: Upload Playwright Videos
@@ -49,3 +53,4 @@ jobs:
         with:
           name: playwright-videos
           path: playwright-tests/videos/
+          if-no-files-found: ignore
