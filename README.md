@@ -29,12 +29,12 @@ Tests generated using GitHub Copilot with Playwright MCP server.
 ## Reflection: Manual vs AI-Assisted UI Testing
 
 **Ease of Writing and Running Tests**
-Writing manual Playwright tests in Java required a deep understanding of the page structure, locators, and assertion APIs. Each test had to be carefully crafted to handle timing issues, strict mode violations, and hidden elements. The process was time-consuming but gave full control over every step. In contrast, AI-assisted testing with Playwright MCP was significantly faster to get started — simply describing the workflow in natural language prompted the agent to navigate the live browser and generate Java code automatically. However, the generated code still required manual fixes such as replacing the search box interaction with a direct URL navigation to avoid timeout issues.
+Writing manual Playwright tests in Java required a deep understanding of the page structure, locators, and assertion APIs. Each test had to be crafted to handle timing issues and hidden elements. AI-assisted testing with Playwright MCP was faster to get started. Simply describing the workflow in natural language prompted the agent to navigate the live browser and generate Java code automatically. However, the generated code still required manual fixes such as replacing the search box interaction with a direct URL navigation to avoid timeout issues.
 
 **Accuracy and Reliability of Generated Tests**
-The manually written tests, once debugged, were highly reliable and consistent across runs. Every assertion was intentionally placed and verified against the actual page behavior. The AI-generated tests were a good starting point but were not immediately runnable — the agent used a search button click approach that timed out, whereas the working solution required navigating directly to the search URL. This shows that AI-generated tests reflect what a human might do visually, but may miss optimizations that come from understanding the underlying web application.
+The manually written tests were reliable and consistent across runs. Every assertion was intentionally placed and verified against the actual page behavior. The AI-generated tests were a good starting point but were not immediately runnable since the agent used a search button click approach that timed out, whereas the working solution required navigating directly to the search URL. This shows that AI-generated tests reflect what a human might do visually, but may miss optimizations that come from understanding the underlying web application.
 
-**Maintenance Effort**
+**Maintenance**
 Manual tests require more upfront effort but are easier to maintain because every line of code is understood by the developer. When the website changes, it is clear exactly what needs to be updated. AI-generated tests can be harder to maintain because the developer may not fully understand every locator or assertion that was generated, making debugging more difficult when tests break.
 
 **Limitations and Issues Encountered**
