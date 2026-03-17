@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="playwrightTraditional.BookstoreTest" time="243.195" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="playwrightTraditional.BookstoreTest" time="249.58" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/davidvalencia/Library/Java/JavaVirtualMachines/corretto-21.0.4/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/surefire/surefirebooter-20260316203634347_3.jar /Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/surefire 2026-03-16T20-36-34_305-jvmRun1 surefire-20260316203634347_1tmp surefire_0-20260316203634347_2tmp"/>
+    <property name="sun.java.command" value="/Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/surefire/surefirebooter-20260316212340598_3.jar /Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/surefire 2026-03-16T21-23-40_539-jvmRun1 surefire-20260316212340598_1tmp surefire_0-20260316212340598_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/test-classes:/Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/classes:/Users/davidvalencia/.m2/repository/com/microsoft/playwright/playwright/1.40.0/playwright-1.40.0.jar:/Users/davidvalencia/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/davidvalencia/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/davidvalencia/.m2/repository/com/microsoft/playwright/driver/1.40.0/driver-1.40.0.jar:/Users/davidvalencia/.m2/repository/com/microsoft/playwright/driver-bundle/1.40.0/driver-bundle-1.40.0.jar:/Users/davidvalencia/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/davidvalencia/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/davidvalencia/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/davidvalencia/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/davidvalencia/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/davidvalencia/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/davidvalencia/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/surefire/surefirebooter-20260316203634347_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/davidvalencia/Desktop/SE333-Assignment5/playwright-tests/target/surefire/surefirebooter-20260316212340598_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -59,11 +59,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testBookstore" classname="playwrightTraditional.BookstoreTest" time="25.981"/>
-  <testcase name="testPickupInformation" classname="playwrightTraditional.BookstoreTest" time="43.275"/>
-  <testcase name="testCreateAccountPage" classname="playwrightTraditional.BookstoreTest" time="35.808"/>
-  <testcase name="testShoppingCart" classname="playwrightTraditional.BookstoreTest" time="30.912"/>
-  <testcase name="testDeleteFromCart" classname="playwrightTraditional.BookstoreTest" time="26.194"/>
-  <testcase name="testPaymentInformation" classname="playwrightTraditional.BookstoreTest" time="41.831"/>
-  <testcase name="testContactInformationPage" classname="playwrightTraditional.BookstoreTest" time="35.963"/>
+  <testcase name="testBookstore" classname="playwrightTraditional.BookstoreTest" time="40.01"/>
+  <testcase name="testPickupInformation" classname="playwrightTraditional.BookstoreTest" time="43.378"/>
+  <testcase name="testCreateAccountPage" classname="playwrightTraditional.BookstoreTest" time="33.334"/>
+  <testcase name="testShoppingCart" classname="playwrightTraditional.BookstoreTest" time="26.379"/>
+  <testcase name="testDeleteFromCart" classname="playwrightTraditional.BookstoreTest" time="28.035"/>
+  <testcase name="testPaymentInformation" classname="playwrightTraditional.BookstoreTest" time="42.639"/>
+  <testcase name="testContactInformationPage" classname="playwrightTraditional.BookstoreTest" time="33.911"/>
 </testsuite>
